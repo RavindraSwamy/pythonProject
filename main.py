@@ -17,4 +17,8 @@ if __name__ == '__main__':
 
 A = "Hello : Nicky"
 
-print ('My name is : ' + A.split(":")[1])
+print('My name is : ' + A.split(":")[1])
+
+B = A.split(":")[1]
+
+print(f'My name is {B}' + ' and i am learning')
